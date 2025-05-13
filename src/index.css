@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* index.css or globals.css */
+html {
+  @apply bg-white text-gray-900;
+}
+
+html.dark {
+  @apply bg-black text-white;
+}
+
+body {
+  @apply transition-colors duration-500 ease-in-out;
+}
+
